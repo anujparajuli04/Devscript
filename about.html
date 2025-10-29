@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - DevScript Nepal</title>
+    <meta name="description" content="Learn about DevScript Nepal - A leading IT startup based in Nepal, dedicated to transforming businesses through innovative technology solutions.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Particle Background Canvas -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav id="mainNav">
+        <div class="container">
+            <div class="nav-content">
+                <!-- Logo -->
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <span>DS</span>
+                    </div>
+                    <span class="logo-text">DevScript Nepal</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="contact.html" class="btn-cta">Get Started</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <svg class="menu-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                    <svg class="close-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+                <a href="contact.html" class="btn-cta">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="hero-gradient-1"></div>
+        <div class="hero-gradient-2"></div>
+        <div class="container">
+            <h1 class="page-title fade-in">About <span class="highlight">DevScript Nepal</span></h1>
+            <p class="page-description fade-in">A leading IT startup based in Nepal, dedicated to transforming businesses through innovative technology solutions and exceptional digital experiences.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section section-padding">
+        <div class="container">
+            <div class="about-grid">
+                <!-- Story -->
+                <div class="about-story fade-left">
+                    <div class="card">
+                        <h3 class="card-title highlight">Our Story</h3>
+                        <p>
+                            Founded with a vision to revolutionize the IT landscape in Nepal, DevScript Nepal 
+                            has grown into a trusted partner for businesses seeking digital transformation.
+                        </p>
+                        <p>
+                            Our team of expert developers, designers, and strategists work together to create 
+                            solutions that are not just functional, but extraordinary.
+                        </p>
+                        <p>
+                            We believe in the power of technology to create positive change, and we're 
+                            committed to delivering excellence in every project we undertake.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Features -->
+                <div class="features-grid fade-right">
+                    <div class="feature-card">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2 2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                        </svg>
+                        <h4>Innovation First</h4>
+                        <p>We leverage cutting-edge technologies to deliver solutions that exceed expectations.</p>
+                    </div>
+                    <div class="feature-card">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <circle cx="12" cy="12" r="6"></circle>
+                            <circle cx="12" cy="12" r="2"></circle>
+                        </svg>
+                        <h4>Goal-Oriented</h4>
+                        <p>Every project is meticulously planned and executed to meet your business objectives.</p>
+                    </div>
+                    <div class="feature-card">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                        <h4>Client-Centric</h4>
+                        <p>Your success is our priority. We work closely with you every step of the way.</p>
+                    </div>
+                    <div class="feature-card">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                        </svg>
+                        <h4>Quality Assured</h4>
+                        <p>We maintain the highest standards in code quality, security, and performance.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vision & Mission -->
+            <div class="vision-mission-grid fade-up">
+                <div class="card vision-card">
+                    <h3 class="card-title">Our Vision</h3>
+                    <p>
+                        To be the leading technology partner in Nepal, recognized globally for our 
+                        innovative solutions and commitment to excellence in software development.
+                    </p>
+                </div>
+                <div class="card mission-card">
+                    <h3 class="card-title">Our Mission</h3>
+                    <p>
+                        To empower businesses with cutting-edge technology solutions that drive growth, 
+                        efficiency, and innovation while fostering a culture of continuous learning.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="stats-section fade-in">
+                <h2 class="section-title">Our <span class="highlight">Achievements</span></h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">30+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="section-cta fade-in">
+                <h2>Ready to work with us?</h2>
+                <p>Let's discuss how we can help bring your ideas to life</p>
+                <a href="contact.html" class="btn-primary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Company Info -->
+                <div class="footer-company">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <span>DS</span>
+                        </div>
+                        <span class="logo-text">DevScript Nepal</span>
+                    </div>
+                    <p>
+                        Empowering businesses with cutting-edge technology solutions. 
+                        Based in Nepal, serving globally.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#">L</a>
+                        <a href="#">T</a>
+                        <a href="#">G</a>
+                        <a href="#">F</a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">Mobile Apps</a></li>
+                        <li><a href="services.html">UI/UX Design</a></li>
+                        <li><a href="services.html">Cloud Services</a></li>
+                        <li><a href="services.html">Consulting</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="footer-bottom">
+                <p>© <span id="currentYear"></span> DevScript Nepal Pvt. Ltd. Made with ❤️ in Nepal</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
